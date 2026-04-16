@@ -1,4 +1,4 @@
-# Masters Tournament Predictor
+# Masters Tournament Predictor (Inspired by https://www.instagram.com/reel/DXGbTvGCCO3/?igsh=YTlmbjJpc2pzM2Vo)
 
 A machine learning prediction system for the Masters Tournament at Augusta National Golf Club.
 Uses **5 base ML models**, a **stacking ensemble meta-learner**, and **10,000 Monte Carlo simulations**
