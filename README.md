@@ -2,7 +2,7 @@
 
 A machine learning and simulation engine that estimates every player's chance of winning the Masters at Augusta National. Five base models feed a stacking meta-learner, and 10,000 Monte Carlo tournaments turn predicted finishes into win, top-5, top-10 and top-20 probabilities.
 
-<!-- LIVE DEMO: add your Streamlit link here, e.g. **[Try the live dashboard](https://your-app.streamlit.app)** -->
+🚀 **[Try the live dashboard](https://petrescu-masters.streamlit.app)**
 
 📝 **Write-up:** [Predicting the 2027 Masters: Building a Machine Learning & Simulation Engine from the Ground Up](https://9numbers0.substack.com/p/predicting-the-2027-masters-building)
 
@@ -44,8 +44,8 @@ Each of 10,000 simulated tournaments draws every player's finish from a normal d
 ## Run it locally
 
 ```bash
-cd "Golf(Masters) Prediction Project"
 pip install -r requirements.txt
+cd "Golf(Masters) Prediction Project"
 
 # Optional: regenerate data, retrain models and rerun simulations
 python pipeline.py
